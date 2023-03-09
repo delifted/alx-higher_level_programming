@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-a = ord('a')
-#for a in range 'z':
-while a <= ord('z'):
-    print(chr(a), end='')
-    a += 1
+letter = ord('a')
+while letter <= ord('z'):
+    print(chr(letter), end='')
+    letter += 1
