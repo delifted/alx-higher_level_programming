@@ -11,12 +11,14 @@ a = sys.argv[1]
 c = sys.argv[2]
 b = sys.argv[3]
 
+"""
 c = ['+', '-', '*', '/']
 if not ('+' in c or '-' in c or '*' in c or '/' in c):
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
+"""
 
-elif sys.argv[2] == '+':
+if sys.argv[2] == '+':
     print("{} + {} = {}".format(a, b, add(int(a), int(b))))
 
 elif sys.argv[2] == '-':
@@ -27,3 +29,4 @@ elif sys.argv[2] == '/':
     print("{} / {} = {}".format(a, b, div(int(a), int(b))))
 else:
     print("Unknown operator. Available operators: +, -, * and /")
+    exit(1)
