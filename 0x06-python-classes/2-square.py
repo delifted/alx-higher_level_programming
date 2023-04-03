@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-# py file by me
-"""Class Square
-
-   Empty Class"""
+"""A module that defines a square"""
 
 
 class Square:
     """Defines a Square"""
+
     def __init__(self, size=0):
         """Initializing Square Size
         Args:
