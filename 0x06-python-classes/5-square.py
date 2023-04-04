@@ -1,16 +1,17 @@
 #!/usr/bin/python3
-"""A module that defines a square"""
+# 0-square.py
+"""A module that defines a square """
 
 
 class Square:
-    """Defines a Square"""
+    """A class that represents a square"""
 
     def __init__(self, size=0):
-        """Initializing Square Size
+        """Initializing this square class
         Args:
-            size: represents the size of the square definition
+            size: represnets the size of the square defined
         Raises:
-            TypeError: when size is not an integer
+            TypeError: if size is not integer
             ValueError: if size is less than zero
         """
 
@@ -23,7 +24,7 @@ class Square:
 
     @property
     def size(self):
-        """Function to Retrive Size of Square"""
+        """Retrieves size of square"""
 
         return self.__size
 
@@ -41,13 +42,13 @@ class Square:
         Returns: The square of the size
         """
 
-        return self.__size ** 2
+        return (self.__size ** 2)
 
     def my_print(self):
-        """Print the square in #"""
+        """print the square in # """
 
         if self.__size == 0:
             print()
 
         for i in range(self.__size):
-            print('#', end="")
+            print("#" * self.__size)
