@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 """ 0-add_integer Module """
 
+
 def add_integer(a, b=98):
     """ Function Returns Sum of Two (2) Integers
     Args:
         Int a, Int b
-    
+
     Function Returns the Sum of Args
     """
     if not isinstance(a, (int, float)):
