@@ -20,3 +20,24 @@ class Rectangle(Base):
         self.__x = x
         self.__y = y
         super().__init__(id)
+
+    # Getter functions
+    @property
+    def width(self):
+        '''Gets width value'''
+        return self.__width
+
+    @property
+    def height(self):
+        '''Gets height value'''
+        return self.__height
+
+    @property
+    def x(self):
+        '''Gets value for x'''
+        return self.__x
+
+    @property
+    def y(self):
+        '''Gets the value for y'''
+        return self.__y
