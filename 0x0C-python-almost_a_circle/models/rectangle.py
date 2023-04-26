@@ -28,4 +28,4 @@ class Rectangle(Base):
         self.__height = height
         self.__x = x
         self.__y = y
-        Base.id = id
+        super().__init__(id)
