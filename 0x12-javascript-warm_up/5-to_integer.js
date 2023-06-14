@@ -2,14 +2,14 @@
 
 const argv = process.argv;
 
-//if (argv[2])
+// if (argv[2])
 const number = parseInt(argv[2]);
 
 if (!argv[2] || isNaN(number)) {
-	console.log('Not a number');
-	} else {
-		console.log('My number:', number);
-	}
+  console.log('Not a number');
+} else {
+  console.log('My number:', number);
+}
 
 /* Another solution is this:
 #!/usr/bin/node
