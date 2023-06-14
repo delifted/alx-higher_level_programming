@@ -6,6 +6,7 @@ for (let i = 0; i < myVar.length; i++) {
 } */
 
 const myVar = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+
 myVar.forEach((val) => {
   console.log(val);
 });
