@@ -8,3 +8,8 @@ if (hasArguments) {
 } else {
   console.log('No argument');
 }
+
+/* Another solution is this:
+#!/usr/bin/node
+console.log(process.argv[2] ? process.argv[2] : 'No argument');
+*/
