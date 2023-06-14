@@ -3,7 +3,7 @@
 const numArgs = process.argv.length;
 
 if (numArgs > 2) {
-	console.log('Argument' + (numArgs > 3 ? 's' : '') + ' found');
+  console.log('Argument' + (numArgs > 3 ? 's' : '') + ' found');
 } else {
-	console.log('No argument');
+  console.log('No argument');
 }
