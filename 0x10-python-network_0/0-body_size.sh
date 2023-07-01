@@ -14,4 +14,4 @@ curl -s -o "$response" "$1"
 size=$(wc -c < "$response")
 
 # Display the size of the response body
-echo "Response body size: $size bytes"
+echo "$size"
